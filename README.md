@@ -54,7 +54,7 @@ try {
     // $format is optional and can be omitted
     // In that case $format will default to 'json'
     $acoust = new Acoust($apiKey, $song, $format);
-    
+
     // All you need to do is to just call query() method
     // This method will return data from acoustid.org in
     // json format by default or in xml if you set your
@@ -76,15 +76,15 @@ To only generate fingerprints of songs or durations of songs you only need the s
 try {
     // Set needed parameters
     $song = 'Path to song';
-    
+
     // Create an instance of acoust
-    $acoust = new Acoust($ong)   
-        
+    $acoust = new Acoust($song)
+
     // Generate fingerprint or duration of the song as you wish
     $acoust->getFingerprint();
     $acoust->getDuration();
-    
-    
+
+
 } catch (Throwable $e) {
     echo $e->getMessage();
 }
@@ -98,14 +98,3 @@ try {
 
 * As always pull requests are graciously welcomed
 * Feel free to report bugs and also suggest improvements
-
-
-
-
-
-
-
-
-
-
-
