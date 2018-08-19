@@ -57,6 +57,14 @@ class Acoust
      */
     private $allowedMimeTypes = [
         'audio/mpeg',
+        'audio/mp3',
+        'audio/x-mpeg',
+        'audio/x-mp3',
+        'audio/mpeg3',
+        'audio/x-mpeg3',
+        'audio/x-mpeg-3',
+        'audio/mpg',
+        'audio/x-mpegaudio',
         'audio/x-m4a',
         'audio/wave',
         'audio/wav'
