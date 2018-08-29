@@ -1,5 +1,5 @@
 <?php
-namespace Acoust\Exception;
+namespace Acoust;
 
 class AcoustException extends \Exception
 {

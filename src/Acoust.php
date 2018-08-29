@@ -1,8 +1,8 @@
 <?php
 namespace Acoust;
 
-use Acoust\Exception\AcoustException;
-use Acoust\Error\AcoustError;
+use Acoust\AcoustException;
+use Acoust\AcoustError;
 
 /**
  * Acoust.php

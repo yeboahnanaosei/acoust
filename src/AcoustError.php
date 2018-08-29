@@ -1,5 +1,5 @@
 <?php
-namespace Acoust\Error;
+namespace Acoust;
 
 class AcoustError extends \Error
 {
