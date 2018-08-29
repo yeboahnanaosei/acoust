@@ -81,8 +81,8 @@ try {
     $acoust = new Acoust($song)
 
     // Generate fingerprint or duration of the song as you wish
-    $acoust->getFingerprint();
-    $acoust->getDuration();
+    $fingerprint = $acoust->getFingerprint();
+    $duration = $acoust->getDuration();
 
 
 } catch (Throwable $e) {
