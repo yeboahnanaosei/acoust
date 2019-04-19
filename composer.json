@@ -1,0 +1,24 @@
+{
+    "name": "yeboahnanaosei/acoust",
+    "type": "library",
+    "description": "A simple one-class wrapper for acoustid.org API",
+    "homepage": "https://github.com/yeboahnanaosei/acoust",
+    "keywords": ["acoustid.org", "audio fingerprinting", "fingerprint", "music", "acoustic fingerprint"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nana Osei Yeboah",
+            "email": "yeboahnanaosei@gmail.com",
+            "homepage": "https://twitter.com/yeboahnanaosei",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acoust\\": "src/"
+        }
+    }
+}
